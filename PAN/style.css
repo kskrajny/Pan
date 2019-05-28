@@ -1,0 +1,154 @@
+body
+{
+background-color:#000000;
+}
+#logo
+{
+	width:500px;
+	height:50px;
+	text-align:center;
+	font-size: 50px;
+	color:#333333;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	cursor:pointer;
+}
+#logo:hover
+{
+	color:#444444;
+}
+#container
+{
+	width:1100px;
+	background-color:#003300;
+	border: #330000 solid 10px;
+	border-radius: 40px;
+	margin-top: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	height:600px;
+}
+.cards
+{
+	width:1020px;
+	margin-left:auto;
+	margin-right:auto;
+	height:56px;
+	margin-top:5px;
+	margin-botom:5px;
+	
+	
+}
+.card
+{
+	width:39px;
+	height:56px;
+	margin-right:2.5px;
+	margin-left:2.5px;
+	background-color:white;
+	float: left; 
+	border-radius:5px;
+	text-align: center;
+	font-size: 45px;
+	color: black;
+	cursor:pointer;
+	filter:brightness(70%);
+}
+.card:hover
+{
+	shadow:100%;
+	filter:brightness(100%);
+}
+#plansza
+{
+	height:349px;
+	width:500px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:54px;
+	margin-bottom:54px;
+	border: black dotted 3px;
+	border-radius: 20px;
+	
+}
+#aktualna
+{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:gray;
+	width:100px;
+	height:140px;
+	border-radius:8px;
+	margin-top:104px;
+	margin-bottom:104px;
+	font-size:125px;
+	text-align:center;
+	color: black;
+	cursor:pointer;
+}
+#wygrana
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+	width:1000px;
+	height:80px;
+	text-align:center;
+	font-size:80px;
+	color:white;
+}
+#button
+{
+	width:45px;
+	height:45px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:199px;
+	margin-bottom:199px;
+	float:left;
+	background-color:#FFFF66;
+	margin-left:80px;
+	border-radius:4px;
+	cursor:pointer;	
+	border: 5px solid #FFCC00;
+	border-radius:4px;
+	filter:opacity(70%);
+}
+#button:hover
+{
+	filter:opacity(100%);
+}
+#zasady
+{
+	position:fixed;
+	right: 200px;
+	top:300px;
+	width: 200px;
+	font-size:20px;
+	text-align:center;
+	font-weight:700;
+	color: #330000;
+	border-radius:20px;
+	cursor:pointer;
+	filter:opacity(70%);
+}
+#zasady:hover
+{
+	filter:opacity(100%);
+}
+#tekscik
+{
+	position:fixed;
+	right: 200px;
+	top:330px;
+	width: 200px;
+	font-size:15px;
+	color:#330000;
+	text-align:center;
+	font-weight:500;
+	display:none;
+}
+
+
